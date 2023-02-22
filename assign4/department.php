@@ -27,10 +27,10 @@
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="employee.php">Employee</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="department.php">Department</a>
                         </li>
                         <li class="nav-item">
@@ -97,7 +97,7 @@
                             die( mysqli_connect_error() );   
                         } 
                         $sql = "
-                        SELECT e1.Fname AS Fname, e1.Lname AS Lname, e2.Fname AS Mgr_Fname, e2.Lname AS Mgr_Lname
+                        SELECT e1.Fname AS Fname, e1.Lname AS Lname, e2.Fname AS super_Fname, e2.Lname AS super_Lname
                         FROM EMPLOYEE e1
                         JOIN EMPLOYEE e2
 	                        ON e1.Super_ssn = e2.Ssn
@@ -111,8 +111,8 @@
                     <tr> 
                         <td><?php echo $row['Lname'] ?></td> 
                         <td><?php echo $row['Fname'] ?></td> 
-                        <td><?php echo $row['Mgr_Lname'] ?></td> 
-                        <td><?php echo $row['Mgr_Fname'] ?></td> 
+                        <td><?php echo $row['super_Lname'] ?></td> 
+                        <td><?php echo $row['super_Fname'] ?></td> 
                     </tr> 
                     <?php 
                             } 
