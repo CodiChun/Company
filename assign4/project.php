@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Assignment 4 Demo</title> 
         <!-- add a reference to the external stylesheet --> 
-        <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css"> 
+        <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.min.css"> 
     </head> 
 
     <body> 
@@ -24,7 +24,7 @@
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="index.php">Home
-                                <span class="sr-only">(current)</span>
+                                <span class="visually-hidden">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
