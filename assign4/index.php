@@ -1,5 +1,7 @@
-<!-- TCSS 445 : Autumn 2020 --> 
-<!-- Assignment 4 Template --> 
+<!-- TCSS 445 : Winter 2023 --> 
+<!-- Codi Chun -->
+<!-- Assignment 4 --> 
+<!-- The Home page-->
 <!DOCTYPE html> 
 <html lang="en"> 
     <head> 

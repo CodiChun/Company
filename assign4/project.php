@@ -1,6 +1,11 @@
 <?php require_once('config.php'); ?>
-<!-- TCSS 445 : Autumn 2020 --> 
-<!-- Assignment 4 Template --> 
+<!-- TCSS 445 : Winter 2023 --> 
+<!-- Codi Chun -->
+<!-- Assignment 4 --> 
+<!-- The project page, which will allow user to select a project location via a dropdown menu.
+for  every  project  located  in  the  selected  project  location  via  the  dropdown  menu, 
+retrieve the project name, the controlling department name and the department manager’s last name, 
+address and birth date.  -->
 <!DOCTYPE html> 
 <html lang="en"> 
     <head> 
